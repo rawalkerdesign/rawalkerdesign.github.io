@@ -16,7 +16,10 @@ font-weight: 300;
 margin-top: 50px;
     float: left;
 }
-
+.name a{
+   text-decoration: none;
+   color:#333333; 
+}
 
 
 header:after {
