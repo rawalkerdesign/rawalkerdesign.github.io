@@ -18,7 +18,7 @@ margin-top: 50px;
 }
 .name a{
    text-decoration: none;
-   color:#333333; 
+   color:#333333;
 }
 
 
@@ -42,9 +42,6 @@ header {
     position: relative;
 }
 
-/*.name h1:hover{
-   background: #FFFF33;
-}*/
 
 .name:hover ~ .highlightbox {
    background: #FFFF33;
@@ -95,12 +92,6 @@ header {
 #main-menu ul li a:hover li{
    background: #FFFF33;
 }
-/*#main-menu a:hover {
-      display: block;
-      color: #FFFF33;
-      font-weight: 600;
-      text-decoration: none;
-}*/
 
 
 .headerbox {
@@ -110,7 +101,8 @@ header {
 }
 .headerbox3 {
     height:5px;
-    width: 75px;
+    width: 30px;
+    background-color: #f2f2f2;
 }
 
 .headerbox2 {
