@@ -81,6 +81,7 @@ header {
 #main-menu li {
     display: inline-block;
     margin-right: 30px;
+   transition: all .2s ease-in-out;
 }
 
 #main-menu a {
@@ -101,10 +102,19 @@ header {
 
 .headerbox {
     height:5px;
-    width: 74.84px;
+    width: 75px;
     background-color: #FFFF33;
 }
+.headerbox3 {
+    height:5px;
+    width: 75px;
+}
 
+.headerbox2 {
+    height:5px;
+    width: 45px;
+    background-color: #FFFF33;
+}
 
 .box {
     margin: 0 auto;
