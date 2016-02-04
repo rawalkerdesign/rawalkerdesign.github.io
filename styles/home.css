@@ -57,7 +57,7 @@ header {
 }
 
 .space{
-   margin-right: 20px;
+   margin-right: -10px;
 }
 
 .yellow:hover{
@@ -103,7 +103,7 @@ header {
 }
 .headerbox3 {
     height:5px;
-    width: 30px;
+    width: 75px;
     background-color: #f2f2f2;
 }
 
