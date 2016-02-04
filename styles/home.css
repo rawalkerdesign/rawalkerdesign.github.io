@@ -9,7 +9,7 @@ body {
     background-color: #f2f2f2;
 }
 
-header h1 {
+.name h1 {
 color: #333333;
 font-size: 19.42px;
 font-weight: 300;
@@ -39,16 +39,20 @@ header {
     position: relative;
 }
 
-header h1:hover{
+/*.name h1:hover{
+   background: #FFFF33;
+}*/
+
+.name:hover ~ .highlightbox {
    background: #FFFF33;
 }
 
 .highlightbox{
    position: absolute;
-   top: 60px;
-   left: -10px;
+   top: 59px;
+   left: -8px;
    height: 10px;
-   width: 110px;
+   width: 170px;
    z-index: -10;
 }
 
@@ -381,4 +385,20 @@ h3 {
 
 .rightarrowbox:hover.navarrow{
    transform: scale(1.2);
+}
+
+.aboutwrapper{
+   width: 890px;
+   margin: 0 auto;
+}
+.aboutwrapper img {
+   width: 500px;
+   height: auto;
+   float: left;
+   margin-right: 40px;
+   margin-bottom: 40px;
+}
+.abouttext{
+   margin-left: 30px;
+   line-height: 1.5em;
 }
