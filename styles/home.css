@@ -428,3 +428,13 @@ h3 {
 .booktitle {
     font-style: italic;
 }
+
+.highlight {
+        position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 369px;
+    height: 100%;
+    background-color: #333333;
+    float: left;
+}
