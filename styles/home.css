@@ -430,3 +430,8 @@ h3 {
 }
 
 
+
+.videowidth {
+    width: 500px;
+    height: auto;
+}
