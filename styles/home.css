@@ -479,4 +479,7 @@ h3 {
    height: 600px;
    width: 890px;
    margin: 0 auto;
+   font-size: 12px;
+   font-weight: 300;
+   color: #333333;
 }
