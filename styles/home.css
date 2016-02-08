@@ -487,8 +487,19 @@ h3 {
    font-size: 12px;
    font-weight: 300;
    color: #333333;
-   vertical-align: bottom;
+   vertical-align: baseline;;
 }
+.footer > p {
+   float: right;
+}
+
+.footer img {
+   padding-right: 10px;
+   height: 20px;
+   width: auto;
+   float: right;
+}
+
 .footergallery{
    text-align: right;
    height: 60px;
@@ -498,10 +509,13 @@ h3 {
    font-weight: 300;
    color: #333333;
 }
+.footergallery > p {
+   float: right;
+}
 
-.footer img {
-   padding-left: 20px;
-   height: 30px;
+.footergallery img {
+   padding-right: 10px;
+   height: 20px;
    width: auto;
    float: right;
 }
