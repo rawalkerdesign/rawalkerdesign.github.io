@@ -487,6 +487,7 @@ h3 {
    font-size: 12px;
    font-weight: 300;
    color: #333333;
+   vertical-align: bottom;
 }
 .footergallery{
    text-align: right;
@@ -496,4 +497,11 @@ h3 {
    font-size: 12px;
    font-weight: 300;
    color: #333333;
+}
+
+.footer img {
+   padding-left: 20px;
+   height: 30px;
+   width: auto;
+   float: right;
 }
