@@ -625,10 +625,14 @@ a:hover .svgfill{
    #main-menu {
        float: none;
        color: #333333;
-       font-size: 12px;
+       font-size: 16px;
        font-weight: 400;
-       padding-top: 50px;
+       padding-top: 40px;
 
+   }
+   .line {
+        color: #f2f2f2;
+        width: 100%;
    }
 
    .box {
@@ -647,8 +651,6 @@ a:hover .svgfill{
 
    .image1 {
        margin-bottom: 20px;
-       margin-right: 2vw;
-       margin-left: 2vw;
    }
 
    .image1 img{
@@ -760,7 +762,7 @@ a:hover .svgfill{
    .footer{
       text-align: right;
       height: 60px;
-      width: 100%;
+      width: 90vw;
       margin: 0 auto;
       font-size: 12px;
       font-weight: 300;
@@ -788,22 +790,93 @@ a:hover .svgfill{
 .textbox_mobile{
       display: inline-block;
       color: #333333;
+      padding: 0;
+      margin: 0;
+
 }
 .textbox_mobile a{
    color: #333333;
    text-decoration: none;
 }
-.textbox_mobile h1{}
-.textbox_mobile h3{}
-.textbox_mobile h4{}
+.textbox_mobile h1{
+   color: #333333;
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 0;
+}
+.textbox_mobile h3{
+   color: #333333;
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-left: 0;
+}
+.textbox_mobile h4{
+   color: #333333;
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 0;
+}
+
+.textbox_mobile p{
+   color: #333333;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 0;
+}
 
    .showcase {
        width: 90vw;
        float: none;
+       margin: 0 auto;
    }
    .project img {
       width: 90vw;
       height: auto;
       padding-bottom: 35px;
    }
+   .project video {
+      width: 90vw;
+      height: auto;
+      padding-bottom: 35px;
+   }
+   .project h4{
+      font-size: 14px;
+      padding-bottom: 20px;
+   }
+
+   .spacingattop {
+       margin-bottom: 40px;
+   }
+   .aboutwrapper{
+      width: 90vw;
+      margin: 0 auto;
+      margin-bottom: 30px;
+   }
+   .aboutwrapper img {
+      width: 100%;
+      height: auto;
+      float: left;
+      margin-right: 40px;
+      margin-bottom: 40px;
+   }
+   .abouttext{
+      margin-left: 0;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 1.6em;
+
+   }
+   .aboutboxline{
+      color: #f2f2f2;
+      padding-left: 0;
+      margin: 25px 0 25px 0;
+
+   }
+
   }
