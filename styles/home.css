@@ -151,11 +151,20 @@ header {
 .image1 {
     margin-bottom: 20px;
     margin-right: 20px;
+}
 
+.image1 img{
+   height: 248px;
+   width: auto;
 }
 
 .image2 {
     margin-bottom: 20px;
+}
+
+.image2 img{
+   height: 248px;
+   width: auto;
 }
 
 .image3 {
@@ -163,13 +172,28 @@ header {
     margin-right: 20px;
 }
 
+.image3 img{
+   height: 250px;
+   width: auto;
+}
+
 .image4 {
     margin-bottom: 20px;
     margin-right: 20px;
 }
 
+.image4 img{
+   height: 250px;
+   width: auto;
+}
+
 .image5 {
     margin-bottom: 20px;
+}
+
+.image5 img{
+   height: 250px;
+   width: auto;
 }
 
 .image6 {
@@ -177,31 +201,65 @@ header {
     margin-right: 20px;
 }
 
+.image6 img{
+   height: 269px;
+   width: auto;
+}
+
 .image7 {
     margin-bottom: 20px;
+    height: 269px;
+    width: auto;
+}
+.image7 img{
+   height: 269px;
+   width: auto;
 }
 
 .image8 {
     margin-bottom: 20px;
     margin-right: 20px;
 }
+.image8 img{
+   height: 230px;
+   width: auto;
+}
 
 .image9 {
      margin-bottom: 20px;
     margin-right: 20px;
 }
+.image9 img{
+   height: 230px;
+   width: auto;
+}
 
 .image10 {
     margin-bottom: 20px;
+    height: 230px;
+    width: auto;
+}
+.image10 img{
+   height: 230px;
+   width: auto;
 }
 
 .image11 {
     margin-bottom: 20px;
     margin-right: 20px;
+
+}
+.image11 img{
+   height: 262px;
+   width: auto;
 }
 
 .image12 {
     margin-bottom: 20px;
+}
+.image12 img{
+   height: 262px;
+   width: auto;
 }
 
 .overlay1 {
@@ -232,6 +290,7 @@ header {
 }
 
 .textbox {
+   display: inline-block;
     position: fixed;
     top: 0;
     overflow: hidden;
@@ -240,6 +299,14 @@ header {
     background-color: #333333;
     float: left;
 }
+
+
+.textbox_mobile{
+   display: none;
+}
+
+
+
 .textbox a {
    color: #f2f2f2;
    font-size: 19px;
@@ -337,6 +404,8 @@ h3 {
 
 }
 .project img {
+   width: 500px;
+   height: auto;
    padding-bottom: 35px;
 }
 
@@ -487,7 +556,7 @@ h3 {
    font-size: 12px;
    font-weight: 300;
    color: #333333;
-   vertical-align: baseline;;
+   vertical-align: baseline;
 }
 .footer > p {
    float: right;
@@ -535,3 +604,206 @@ h3 {
 a:hover .svgfill{
    fill: #FFFF33;
 }
+
+@media (max-width: 600px) {
+
+
+   header {
+       height: 150px;
+       width: 90vw;
+       margin: 0 auto;
+       position: relative;
+   }
+   .name h1 {
+   color: #333333;
+   font-size: 19.42px;
+   font-weight: 300;
+   margin-top: 50px;
+   float: none;
+   }
+
+   #main-menu {
+       float: none;
+       color: #333333;
+       font-size: 12px;
+       font-weight: 400;
+       padding-top: 50px;
+
+   }
+
+   .box {
+       margin: 0 auto;
+       width: 100vw;
+
+   }
+
+   .imagebox li {
+       float: none;
+       border: solid 15px transparent;
+       height: auto;
+       -webkit-transition: all .2s ease-in-out;
+       transition: all .2s ease-in-out;
+   }
+
+   .image1 {
+       margin-bottom: 20px;
+       margin-right: 2vw;
+       margin-left: 2vw;
+   }
+
+   .image1 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image2 {
+       margin-bottom: 20px;
+   }
+
+   .image2 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image3 {
+       margin-bottom: 20px;
+       margin-right: 20px;
+   }
+
+   .image3 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image4 {
+       margin-bottom: 20px;
+       margin-right: 20px;
+   }
+
+   .image4 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image5 {
+       margin-bottom: 20px;
+   }
+
+   .image5 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image6 {
+       margin-bottom: 20px;
+       margin-right: 20px;
+   }
+
+   .image6 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image7 {
+       margin-bottom: 20px;
+   }
+   .image7 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image8 {
+       margin-bottom: 20px;
+       margin-right: 20px;
+   }
+   .image8 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image9 {
+        margin-bottom: 20px;
+       margin-right: 20px;
+   }
+   .image9 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image10 {
+       margin-bottom: 20px;
+
+   }
+   .image10 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image11 {
+       margin-bottom: 20px;
+       margin-right: 20px;
+
+   }
+   .image11 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .image12 {
+       margin-bottom: 20px;
+   }
+   .image12 img{
+      height: auto;
+      width: 90vw;
+   }
+
+   .footer{
+      text-align: right;
+      height: 60px;
+      width: 100%;
+      margin: 0 auto;
+      font-size: 12px;
+      font-weight: 300;
+      color: #333333;
+      vertical-align: baseline;
+   }
+
+   .contentcontainer {
+       position: relative;
+        width: 100vw;
+       height: auto;
+       margin: 0 auto;
+   }
+   .textbox {
+      display: none;
+       position: relative;
+       top: 0;
+       overflow: hidden;
+       width: 90vw;
+       height: 100%;
+       background-color: #333333;
+       float: none;
+   }
+
+.textbox_mobile{
+      display: inline-block;
+      color: #333333;
+}
+.textbox_mobile a{
+   color: #333333;
+   text-decoration: none;
+}
+.textbox_mobile h1{}
+.textbox_mobile h3{}
+.textbox_mobile h4{}
+
+   .showcase {
+       width: 90vw;
+       float: none;
+   }
+   .project img {
+      width: 90vw;
+      height: auto;
+      padding-bottom: 35px;
+   }
+  }
