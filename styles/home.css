@@ -411,6 +411,8 @@ h3 {
 
 .project video {
    padding-bottom: 35px;
+   width: 500px;
+   height: auto;
 }
 
 .project h4 {
